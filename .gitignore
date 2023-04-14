@@ -1,0 +1,9 @@
+YourSpace/settings.py
+.vscode/
+.venv
+node_modules/
+node_modules
+.env
+__pycache__/
+*.py[cod]
+.DS_Store
