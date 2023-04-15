@@ -3,3 +3,6 @@ from django.http import HttpResponse
 
 def say_hello(request):
     return render(request, 'hello.html', {'name': 'Django'})
+
+def index(request):
+    return render(request, "chat/index.html")
